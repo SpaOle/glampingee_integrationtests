@@ -19,7 +19,7 @@ class WhenSortingGlampings {
     @Steps
     NavigateActions navigate;
     @Steps
-    SortByName sort;
+    SortAction sort;
 
 
     @Test
