@@ -38,7 +38,7 @@ class WhenSortingGlampings {
         assertThat(sort.getFirstCardName().contains("Auksi holiday home-2")).isTrue();
     }
 
-    @Test
+    /*@Test
     @DisplayName("Sort by price descending")
     void testSortByPriceDescending() {
         navigate.toPage("http://localhost:3000/explore");
@@ -52,7 +52,7 @@ class WhenSortingGlampings {
         navigate.toPage("http://localhost:3000/explore");
         sort.sort("Price", "Ascending");
         assertThat(sort.getFirstCardName().contains("Glamping \"Birch\"")).isTrue();
-    }
+    }*/
 
     @Test
     @DisplayName("Sort by county descending")

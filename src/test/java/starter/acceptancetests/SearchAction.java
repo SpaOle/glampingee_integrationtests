@@ -19,6 +19,7 @@ public class SearchAction extends UIInteractions {
     @Step("Get name of first glamping")
     public String getFirstCardName() {
         waitForRenderedElementsToBePresent(FIRST_CARD);
+        waitABit(2000);
         return find(FIRST_CARD).getText();
     }
 }
